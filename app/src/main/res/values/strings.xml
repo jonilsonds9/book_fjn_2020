@@ -3,4 +3,6 @@
     <string name="datail_title">Detalhes do Livro</string>
     <string name="loading_text">Carregando...</string>
     <string name="erro_loading_books">Erro ao carregar lista de livros</string>
+    <string name="tab_books">Livros</string>
+    <string name="tab_favorites">Favoritos</string>
 </resources>

@@ -13,4 +13,7 @@ interface BookDao {
 
     @Query("SELECT * FROM Book")
     fun allFavorites(): Flow<List<Book>>
+
+    @Query("SELECT COUNT(id) FROM Book WHERE id = :id")
+    suspend fun isFavorite(id: String): Int
 }

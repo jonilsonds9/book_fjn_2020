@@ -66,8 +66,6 @@ class BookListFragment: Fragment() {
     }
 
     private fun onVolumeClick(volume: Volume) {
-        val intencao = Intent(requireContext(), BookDetailActivity::class.java)
-        intencao.putExtra("volume", volume)
-        startActivity(intencao)
+        BookDetailActivity.openWithVolume(requireContext(), volume)
     }
 }
