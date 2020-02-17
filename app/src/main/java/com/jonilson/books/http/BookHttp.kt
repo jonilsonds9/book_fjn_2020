@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit
 object BookHttp {
 
     private const val API_KEY =
-        "AIzaSyA6TFLQcT070BhjK7k2HxvyrQFny8GjMgo"
+        "YOUR_API_KEY"
     private const val BOOK_JSON_URL =
         "https://www.googleapis.com/books/v1/volumes?q=%s&key=$API_KEY"
 
